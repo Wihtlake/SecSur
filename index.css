@@ -33,6 +33,16 @@ body{
 .menu1 a{
     color: #fff;
     text-decoration: none;
+    padding: 5px 0;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.menu1 a:hover{
+    background: rgb(255, 255, 255);
+    padding: 5px 15px;
+    color: #000;
+    border-radius: 20px;
+
 }
 .menu2{
     display: flex;
@@ -131,6 +141,10 @@ body{
     vertical-align: middle;
     color: #fff;
     text-decoration: none;
+    transition: 0.3s;
+}
+.wp2-2 a:hover{
+    color: #000;
 }
 .wp2-2 img{
     margin: 10px;
@@ -182,8 +196,6 @@ body{
     font-size: 2.5vh;
 
 }
-.box-1-2-3 a{
-}
 .box1-2 img{
     float: left;
     width: 60px;
@@ -197,13 +209,8 @@ body{
     padding-bottom: 20px;
     padding-left: 20px;
 }
-.box1-2-2 div img a{
-}
 /* КОНЕЦ СЛАЙДЕРА */
 /* НАЧАЛО "РЕШЕНИЙ" */
-
-
-
 .block-3{
     display: flex;
     width: 88%;
@@ -247,6 +254,19 @@ body{
 }
 .wrapper3 .button{
     padding: 30px 0;
+    
+}
+.button a{
+    border-radius: 40px;
+
+    transition: 0.2s;
+}
+.button a:hover{
+    background: rgba(86, 150, 209, 0.801);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(86, 150, 209, 0.801);    
+    border-radius: 40px;
+
 }
 .wrapper4{
     width: 70%;
@@ -330,24 +350,36 @@ body{
     margin-top: 10px;
     border-radius: 18px;
     background: rgba(176, 58, 182, 0.761);
+    transition: 0.2s;
 }
-
+.box1-3 a:hover{
+    background: rgba(255, 255, 255, 0.761);
+    color: rgb(0, 0, 0);
+    transform: scale(1.02);
+}
 /* КОНЕЦ "РЕШЕНИЙ" */
 
 .show_all{
     float: right;
     font-size: 2.5vh;
     vertical-align: middle;
-    padding:  20px 30px;
-    background:rgba(176, 58, 182, 0.761) ;
     margin: 40px auto;
-    border-radius: 40px;
+    
 }
 .show_all a{
     color: #fff;
     text-decoration: none;
+    padding:  20px 30px;
+    background:rgba(176, 58, 182, 0.761) ;
+    border-radius: 40px;
+    transition: 0.2s;
 }
-
+.show_all a:hover{
+    background: rgba(255, 255, 255, 0.761);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(176, 58, 182, 0.548);
+    transform: scale(1.02);
+}
 /* НАЧАЛО 4 КОНТЕЙНЕРОВ */
 
 .container_3{
@@ -686,6 +718,11 @@ body{
     padding: 7px 20px ;
     background: rgba(109, 138, 177, 0.796);
     border-radius: 20px;
+    transition: 0.2s;
+}
+.box_nn a:hover{
+    background: rgba(255, 255, 255, 0.514);
+    transform: scale(1.05);
 }
 .box_h2 h2{
     font-size: 5vh;
