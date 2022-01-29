@@ -264,18 +264,15 @@ body{
 .button a:hover{
     background: rgba(86, 150, 209, 0.801);
     color: rgb(255, 255, 255);
-    border: 2px solid rgba(86, 150, 209, 0.801);    
     border-radius: 40px;
 
 }
 .wrapper4{
     width: 70%;
-
     display: flex;
     flex-wrap: wrap;
     padding-top: 70px;
     justify-content: space-around;
-
 }
 .boxer1{
     background: url(img/box1.jpg);
@@ -324,7 +321,6 @@ body{
 }
 .box1-3 .text2 ul li{
     padding: 20px;
-
 }
 .text2-3{
     background: rgba(255, 255, 255, 0.508);
@@ -364,7 +360,6 @@ body{
     font-size: 2.5vh;
     vertical-align: middle;
     margin: 40px auto;
-    
 }
 .show_all a{
     color: #fff;
@@ -384,7 +379,6 @@ body{
 
 .container_3{
     width: 100%;
-    
     display: flex;
 }
 .box_container{
