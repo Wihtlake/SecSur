@@ -37,11 +37,13 @@ header{
     border-radius: 10px;
     transition: 0.2s;
 }
-.menu1 a{
+.menu1 .fb{
     color: #fff;
     text-decoration: none;
     padding: 5px 0;
     border-radius: 10px;
+    cursor: default;
+    
 }
 .menu1 .fl:hover{
     background: rgb(255, 255, 255);
