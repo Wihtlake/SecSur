@@ -571,7 +571,7 @@ header{
     object-fit: cover;
     background: #F0F0F0 ;
     border-radius: 10px;
-    box-shadow: rgb(155, 150, 228) 5px 5px 50px 10px;
+    /* box-shadow: rgb(155, 150, 228) 5px 5px 50px 10px; */
     width: 130px;
     height: 130px;
     justify-items: center;
